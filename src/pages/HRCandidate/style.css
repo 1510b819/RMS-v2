@@ -1,0 +1,986 @@
+.HRCandidate {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the pagination */
+  margin-top: 20px; /* Space between table and pagination */
+  margin-bottom: 80px; /* Adjust margin to create space above */
+}
+
+.prev, .next {
+  background-color: #007BFF; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prev:disabled, .next:disabled {
+  background-color: #ccc; /* Disabled button color */
+  cursor: not-allowed; /* Change cursor on disabled */
+}
+
+.page-number {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.page-number.active {
+  font-weight: bold; /* Highlight the active page */
+}
+
+
+
+.HRCandidate .div-4 {
+  background-color: #fafafa;
+  height: 1475px;
+  overflow: hidden;
+  position: relative;
+  width: 1512px;
+}
+
+.HRCandidate .image {
+  height: 111px;
+  left: -1138px;
+  object-fit: cover;
+  position: absolute;
+  top: -1975px;
+  width: 196px;
+}
+
+.HRCandidate .overlap {
+  height: 82px;
+  left: 196px;
+  position: absolute;
+  top: 44px;
+  width: 1316px;
+}
+
+.HRCandidate .rectangle-3 {
+  background-color: #0072bc;
+  height: 64px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1316px;
+}
+
+.HRCandidate .frame {
+  align-items: center;
+  display: inline-flex;
+  gap: 21px;
+  left: 1083px;
+  position: absolute;
+  top: 13px;
+}
+
+.HRCandidate .frame-wrapper {
+  height: 35.99px;
+  position: relative;
+  width: 187px;
+}
+
+.HRCandidate .frame-2 {
+  align-items: center;
+  display: flex;
+  gap: 21px;
+  height: 36px;
+  position: relative;
+  width: 187px;
+}
+
+.HRCandidate .vector {
+  height: 32.2px;
+  position: relative;
+  width: 30px;
+}
+
+.HRCandidate .img {
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.HRCandidate .design-component-instance-node {
+  font-family: "Inter-Regular", Helvetica !important;
+  font-weight: 400 !important;
+}
+
+.HRCandidate .rectangle-4 {
+  background-color: #fafafa;
+  border-radius: 20px;
+  height: 67px;
+  left: 170px;
+  position: absolute;
+  top: 15px;
+  width: 161px;
+}
+
+.HRCandidate .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  gap: 36px;
+  left: 30px;
+  position: absolute;
+  top: 28px;
+}
+
+.HRCandidate .dashboard-instance {
+  font-family: "Inter-Regular", Helvetica !important;
+  font-weight: 400 !important;
+  width: 127px !important;
+}
+
+.HRCandidate .text-wrapper-5 {
+  color: #0072bc;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 120px;
+}
+
+.HRCandidate .rectangle-5 {
+  background-color: #0072bc;
+  height: 7px;
+  left: 46px;
+  position: absolute;
+  top: 237px;
+  width: 1420px;
+}
+
+.HRCandidate .rectangle-6 {
+  background-color: #0072bc;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 1326px;
+  width: 1512px;
+}
+
+.search-input {
+  flex: 1; /* Allow the input to take up the available space */
+  padding: 10px; /* Add some padding */
+  border: none; /* Remove border for a cleaner look */
+  outline: none; /* Remove outline */
+}
+
+.search-icon {
+  margin-left: 10px; /* Space between the input and icon */
+}
+
+
+.HRCandidate .pagination {
+  align-items: center;
+  display: inline-flex;
+  gap: 16px;
+  justify-content: center;
+  left: 568px;
+  position: absolute;
+  top: 1240px;
+}
+
+.HRCandidate .button {
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.HRCandidate .div-wrapper {
+  all: unset;
+  align-items: center;
+  background-color: #3575e2;
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 4px;
+  height: 40px;
+  justify-content: center;
+  padding: 8px 16px;
+  position: relative;
+  width: 40px;
+}
+
+.HRCandidate .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "DM Sans-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.HRCandidate .button-2 {
+  all: unset;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #1111111a;
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 4px;
+  height: 40px;
+  justify-content: center;
+  padding: 8px 16px;
+  position: relative;
+  width: 40px;
+}
+
+.HRCandidate .text-wrapper-7 {
+  color: #111111;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: -1px;
+  margin-right: -1px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.HRCandidate .logo {
+  height: 111px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 196px;
+}
+
+.HRCandidate .overlap-2 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #c5c5c5;
+  border-radius: 15px;
+  height: 451px; /* Keep the height as needed */
+  left: 46px;
+  position: absolute;
+  top: 397px;
+  width: 1420px;
+  padding: 0; /* Remove any padding */
+  margin: 0; /* Remove margin to ensure it fits well */
+  overflow-y: auto; /* Allow vertical scrolling if content overflows */
+  margin-top: 10px;
+}
+
+.HRCandidate .text-wrapper-8 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 850px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 135px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-9 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1032px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 135px;
+  white-space: nowrap;
+}
+
+.HRCandidate .rectangle-7 {
+  background-color: #e2e2e2;
+  height: 4px;
+  left: -1px;
+  position: absolute;
+  top: 106px;
+  width: 1420px;
+}
+
+.HRCandidate .rectangle-8 {
+  background-color: #e2e2e2;
+  height: 4px;
+  left: -1px;
+  position: absolute;
+  top: 192px;
+  width: 1420px;
+}
+
+.HRCandidate .rectangle-9 {
+  background-color: #e2e2e2;
+  height: 4px;
+  left: -1px;
+  position: absolute;
+  top: 278px;
+  width: 1420px;
+}
+
+.HRCandidate .rectangle-10 {
+  background-color: #e2e2e2;
+  height: 4px;
+  left: -1px;
+  position: absolute;
+  top: 364px;
+  width: 1420px;
+}
+
+.HRCandidate .text-wrapper-10 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-11 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 135px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-12 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 304px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 135px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-13 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 425px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 135px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-14 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 685px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 135px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-15 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 850px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 221px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-16 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1032px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 221px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-17 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 221px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-18 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 304px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 221px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-19 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 425px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 221px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-20 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 685px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 221px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-21 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 850px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 307px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-22 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1032px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 307px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-23 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 307px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-24 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 304px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 307px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-25 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 425px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 307px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-26 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 685px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 307px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-27 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 850px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 393px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-28 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1032px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 393px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-29 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 393px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-30 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 304px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 393px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-31 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 425px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 393px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-32 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 685px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 393px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-33 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 302px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-34 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 425px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-35 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 685px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-36 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 850px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-37 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1032px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-38 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1224px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.HRCandidate .text-wrapper-39 {
+  color: blue;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1224px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 135px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.HRCandidate .text-wrapper-40 {
+  color: blue;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1224px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 221px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.HRCandidate .text-wrapper-41 {
+  color: blue;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1224px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 307px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.HRCandidate .text-wrapper-42 {
+  color: blue;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1224px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 393px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.candidates-table {
+  width: 100%; /* Take full width of the overlap-2 div */
+  border-collapse: collapse; /* Ensure borders are collapsed */
+  margin: 0; /* Remove any margin */
+}
+
+
+.candidates-table th,
+.candidates-table td {
+  border: 1px solid #ddd; /* Add border to cells */
+  padding: 8px; /* Add padding to cells */
+  text-align: left; /* Align text to the left */
+}
+
+/* Add this to your HRCandidate.css or relevant CSS file */
+.resume-link {
+  color: #007bff; /* A blue-ish color */
+  text-decoration: underline; /* Underline text */
+}
+
+.resume-link:hover {
+  color: #0056b3; /* Darker shade on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+
+.candidates-table th, .candidates-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.candidates-table th {
+  background-color: #EDEDED;
+  font-weight: bold;
+}
+
+.candidates-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+.HRCandidate .overlap-3 {
+  border-radius: 8px;
+  height: 80px;
+  left: 46px;
+  position: absolute;
+  top: 292px;
+  width: 1420px;
+}
+
+.HRCandidate .frame-4 {
+  align-items: center; /* Center items vertically */
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #c5c5c5;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row; /* Change to row to align input and icon horizontally */
+  gap: 10px; /* Optional: Space between input and icon */
+  height: 80px;
+  left: 0;
+  padding: 17px 37px;
+  position: absolute;
+  top: 0;
+  width: 1420px;
+}
+
+.n-a-note {
+  font-size: 12px;
+  color: #666;
+  margin-top: 380px;
+  margin-left: 50px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+
+.HRCandidate .frame-5 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.HRCandidate .overlap-group-wrapper {
+  height: 42px;
+  position: relative;
+  width: 32px;
+}
+
+.HRCandidate .overlap-group-2 {
+  height: 42px;
+  position: relative;
+  width: 35px;
+}
+
+.HRCandidate .ellipse {
+  background-color: #ffffff;
+  border: 3px solid;
+  border-color: #c5c5c5;
+  border-radius: 16px/15px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.HRCandidate .line {
+  height: 16px;
+  left: 22px;
+  position: absolute;
+  top: 26px;
+  width: 13px;
+}
+
+.HRCandidate .p {
+  color: #c5c5c5;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.HRCandidate .frame-6 {
+  align-items: center;
+  background-color: #3575e2;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  height: 68px;
+  justify-content: center;
+  left: 1236px;
+  padding: 18px 22px;
+  position: absolute;
+  top: 7px;
+  width: 172px;
+}
+
+.HRCandidate .text-wrapper-43 {
+  color: #ffffff;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.5px;
+  position: relative;
+  width: fit-content;
+}
+
+.HRCandidate .rectangle-11 {
+  background-color: #a6a6a6;
+  height: 59px;
+  left: 738px;
+  position: absolute;
+  top: 11px;
+  width: 3px;
+}
+
+.HRCandidate .group-13 {
+  left: 774px !important;
+  position: absolute !important;
+  top: 11px !important;
+  width: 418px !important;
+}
+
+.HRCandidate .group-instance {
+  left: 364px !important;
+  width: 42px !important;
+}
+
+.HRCandidate .group-13-instance {
+  width: 42px !important;
+}
+
+.HRCandidate .group-2 {
+  height: 24px !important;
+  left: 10px !important;
+  top: -4px !important;
+  transform: rotate(-31.14deg) !important;
+  width: 4px !important;
+}
+
+.HRCandidate .group-3 {
+  height: 23px !important;
+  left: 28px !important;
+  top: -5px !important;
+  transform: rotate(29.35deg) !important;
+  width: 4px !important;
+}
+
+.HRCandidate .group-4 {
+  left: 19px !important;
+}
+
